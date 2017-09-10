@@ -1055,10 +1055,9 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 .owl-carousel-fullwidth .item .owl-text .lead, .owl-carousel-fullwidth .item .owl-text .lead-2, .owl-carousel-fullwidth .item .owl-text .sub-lead-black {
-  color: #;
+  color: #0b0b0b;
   margin: 0;
   padding: 0;
-
 }
 .owl-carousel-fullwidth .item .owl-text .lead {
   font-weight: 700;
@@ -1139,3 +1138,5 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
+
+/*# sourceMappingURL=style.css.map */
