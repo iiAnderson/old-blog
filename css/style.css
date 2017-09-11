@@ -1013,22 +1013,17 @@ h1, h2, h3, h4, h5, h6 {
 .owl-carousel-fullwidth .item img {
   max-width: 100%;
 }
-.owl-carousel-fullwidth .item .iphone-image {
+.owl-carousel-fullwidth .item .banner-image {
   position: relative;
   z-index: 99;
 }
-.owl-carousel-fullwidth .item .iphone-image .iphone {
+.owl-carousel-fullwidth .item .banner-image .banner {
   text-align: right;
   position: relative;
   bottom: -13em;
 }
-.owl-carousel-fullwidth .item .iphone-image .connected {
-  text-align: right;
-  position: relative;
-  bottom: -10em;
-}
 @media screen and (max-width: 768px) {
-  .owl-carousel-fullwidth .item .iphone-image .connected {
+  .owl-carousel-fullwidth .item .banner-image .banner {
     bottom: 0em;
     text-align: center;
     float: none !important;
@@ -1036,19 +1031,7 @@ h1, h2, h3, h4, h5, h6 {
     display: inline;
   }
 }
-.owl-carousel-fullwidth .item .iphone-image .connected img {
-  max-width: 100%;
-}
-@media screen and (max-width: 768px) {
-  .owl-carousel-fullwidth .item .iphone-image .iphone {
-    bottom: 0em;
-    text-align: center;
-    float: none !important;
-    margin: 0 auto;
-    display: inline;
-  }
-}
-.owl-carousel-fullwidth .item .iphone-image .iphone img {
+.owl-carousel-fullwidth .item .banner-image .banner img {
   max-width: 100%;
 }
 .owl-carousel-fullwidth .item .owl-text {
