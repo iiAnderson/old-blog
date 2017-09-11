@@ -1020,7 +1020,7 @@ h1, h2, h3, h4, h5, h6 {
 .owl-carousel-fullwidth .item .banner-image .banner {
   text-align: right;
   position: relative;
-  bottom: -13em;
+  bottom: -15em;
 }
 @media screen and (max-width: 768px) {
   .owl-carousel-fullwidth .item .banner-image .banner {
@@ -1069,6 +1069,17 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 50px;
   line-height: 50px;
   color: #fff;
+}
+.owl-carousel-fullwidth .item .owl-text .lead-black {
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fff;
+  font-size: 50px;
+  line-height: 50px;
+  color: #0d0d0d;
 }
 @media screen and (max-width: 768px) {
   .owl-carousel-fullwidth .item .owl-text .lead {
