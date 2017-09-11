@@ -769,9 +769,15 @@ h1, h2, h3, h4, h5, h6 {
 .owl-carousel:focus .owl-controls .owl-nav, .owl-carousel:hover .owl-controls .owl-nav, .owl-carousel:active .owl-controls .owl-nav {
   opacity: 1;
 }
-.owl-carousel .btn-primary:hover, .owl-carousel .btn-primary:focus, .owl-carousel .btn-primary:active {
+.owl-carousel .btn-primary-black:hover, .owl-carousel .btn-primary-black:focus, .owl-carousel .btn-primary-black:active {
   background: transparent !important;
-  border: 2px solid #fff !important;
+  border: 2px solid #7f7f7f !important;
+}
+
+.owl-carousel .btn-primary-white:hover, .owl-carousel .btn-primary-white:focus, .owl-carousel .btn-primary-white:active {
+  background: transparent !important;
+  border: 2px solid #0d0d0d !important;
+  color: #0d0d0d !important;
 }
 
 .owl-carousel .owl-controls,
@@ -797,7 +803,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .owl-carousel .owl-controls .owl-nav .owl-next i:before,
 .owl-carousel .owl-controls .owl-nav .owl-prev i:before {
-  color: rgba(255, 255, 255, 0.5);
+  color: #7f7f7f;
 }
 
 .owl-carousel-posts .owl-controls .owl-nav .owl-next,
@@ -812,7 +818,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 10px;
 }
 .owl-carousel .owl-controls .owl-nav .owl-next:hover i:before {
-  color: white;
+  color: #6173f4;
 }
 
 .owl-carousel .owl-controls .owl-nav .owl-prev {
@@ -822,25 +828,25 @@ h1, h2, h3, h4, h5, h6 {
   left: 10px;
 }
 .owl-carousel .owl-controls .owl-nav .owl-prev:hover i:before {
-  color: white;
+  color: #6173f4;
 }
 
 .owl-carousel-posts .owl-controls .owl-nav .owl-next i,
 .owl-carousel-posts .owl-controls .owl-nav .owl-prev i {
-  color: #444;
+  color: #7f7f7f;
 }
 .owl-carousel-posts .owl-controls .owl-nav .owl-next:hover i,
 .owl-carousel-posts .owl-controls .owl-nav .owl-prev:hover i {
-  color: #000;
+  color: #6173f4;
 }
 
 .owl-carousel-fullwidth.light-arrow .owl-controls .owl-nav .owl-next i,
 .owl-carousel-fullwidth.light-arrow .owl-controls .owl-nav .owl-prev i {
-  color: #fff;
+  color: #7f7f7f;
 }
 .owl-carousel-fullwidth.light-arrow .owl-controls .owl-nav .owl-next:hover i,
 .owl-carousel-fullwidth.light-arrow .owl-controls .owl-nav .owl-prev:hover i {
-  color: #fff;
+  color: #7f7f7f;
 }
 
 @media screen and (max-width: 768px) {
