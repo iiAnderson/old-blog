@@ -1022,6 +1022,23 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   bottom: -13em;
 }
+.owl-carousel-fullwidth .item .iphone-image .connected {
+  text-align: right;
+  position: relative;
+  bottom: -10em;
+}
+@media screen and (max-width: 768px) {
+  .owl-carousel-fullwidth .item .iphone-image .connected {
+    bottom: 0em;
+    text-align: center;
+    float: none !important;
+    margin: 0 auto;
+    display: inline;
+  }
+}
+.owl-carousel-fullwidth .item .iphone-image .connected img {
+  max-width: 100%;
+}
 @media screen and (max-width: 768px) {
   .owl-carousel-fullwidth .item .iphone-image .iphone {
     bottom: 0em;
