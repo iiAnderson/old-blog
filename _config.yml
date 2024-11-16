@@ -1,13 +1,11 @@
-remote_theme: jekyll-theme-chirpy
+theme: minima
 lang: en
 
 timezone: Europe/London
 title: Robbie A
 
-tagline: "<div>Welcome to my blog!</div><div style='padding-bottom: 10px;'></div><div>I'm a Software Engineer who likes both trains and data.</div><div style='padding-bottom: 10px;'></div><div>Current projects focus on collecting railway data from the National Rail push port APIs</div><div style='padding-bottom: 10px;'></div><div></div>"
-
 description: >-   
-  Blog from Robbie A.
+  Welcome to my blog. I'm a Software Engineer who likes both trains and data.
 
 github:
   username: iianderson
