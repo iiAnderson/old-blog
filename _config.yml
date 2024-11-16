@@ -1,4 +1,4 @@
-theme: minima
+remote_theme: jekyll-theme-chirpy
 lang: en
 
 timezone: Europe/London
@@ -12,7 +12,7 @@ description: >-
 github:
   username: iianderson
 social:
-  name: Robbie A
+  name: Linkedin
   links:
     - https://github.com/iianderson        
 
