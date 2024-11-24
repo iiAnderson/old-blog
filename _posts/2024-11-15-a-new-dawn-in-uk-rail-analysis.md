@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A new dawn in UK rail analysis"
+title:  "A new dawn in UK rail analysis - Connecting to the Darwin Push Port"
 ---
 
 # Welcome
@@ -50,4 +50,4 @@ You should now be able to run the below command and connect directly to the feed
 poetry run python3 cli.py
 ```
 
-If you connect succesfully, then you should see lots of JSON being printed in your command line. These are the (nearly, they actually arrive in XML format) raw data packats from the Darwin rail system - and allow you to see live movement of trains across the network.
+If you connect succesfully, then you should see lots of JSON being printed in your command line. These are the raw data packets (well.. nearly, they actually arrive in XML format) from the Darwin rail system - and allow you to see live movement of trains across the network.
